@@ -1,6 +1,6 @@
 <?php
 
-namespase package\package;
+namespace package\package;
 
 class PackageTest {
 
