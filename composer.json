@@ -1,7 +1,7 @@
 {
     "name": "package/package",
     "type": "library",
-    "version": "dev-master",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Volodymyr Ivzhenko",
