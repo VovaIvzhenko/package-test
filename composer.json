@@ -8,5 +8,11 @@
             "email": "ivzhen@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+"autoload": {
+        "psr-4": {
+            "package\\package\\": "./src"
+        }
+    },
+
 }
