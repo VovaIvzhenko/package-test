@@ -1,7 +1,7 @@
 {
     "name": "package/package",
     "type": "library",
-    "version": "1.0.0",
+    "version": "dev-master",
     "authors": [
         {
             "name": "Volodymyr Ivzhenko",
@@ -9,10 +9,9 @@
         }
     ],
     "require": {},
-"autoload": {
+    "autoload": {
         "psr-4": {
             "package\\package\\": "./src"
         }
-    },
-
+    }
 }
