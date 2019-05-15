@@ -16,5 +16,10 @@ if (empty($_POST)){
         $_POST = json_decode($data, true);
     }
 }
+header('Access-Control-Allow-Origin: *');
+//header('Access-Control-Allow-Headers: X-Requested-With');
+header('Access-Control-Allow-Headers: Content-Type');
+header('Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS');
+
 
 new \app\Router();
