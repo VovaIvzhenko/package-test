@@ -1,1 +1,6 @@
-/vendor/
+.idea
+.git
+composer.lock
+/configs/config.php
+/vendor/*
+/tests/

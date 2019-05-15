@@ -1,0 +1,22 @@
+{
+  "name": "run/api-foundation",
+  "description": "Implementation base api for any projects",
+  "version": "dev-master",
+  "authors": [
+    {
+      "name": "Ivzhenko Volodymyr",
+      "email": "ivzhen4@gmail.com"
+    }
+  ],
+  "require": {
+    "klein/klein": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "./app"
+    },
+    "require-dev": {
+      "larapack/dd": "^1.1"
+    }
+  }
+}
