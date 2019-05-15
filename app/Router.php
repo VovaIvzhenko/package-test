@@ -10,6 +10,7 @@ namespace app;
 
 
 use app\controllers\ExampleController;
+use app\controllers\LogController;
 use app\exceptions\SecureException;
 use app\middleware\MiddlewareFactory;
 use Klein\Klein;
@@ -35,6 +36,9 @@ class Router
             // without base path /api/v1
             ['GET', '/example/to', 'methodCalled', 'json'],
             ['GET', '/example/path', 'methodTest', 'json']
+        ],
+        LogController::class => [
+            ['POST', '/log/activity', 'sendActivity', 'json']
         ]
     ];
 

@@ -10,6 +10,7 @@ namespace app\middleware;
 
 
 use app\controllers\ExampleController;
+use app\controllers\LogController;
 
 /**
  * Class MiddlewareFactory
@@ -21,7 +22,8 @@ final class MiddlewareFactory
      * @var array
      */
     private static $middlewarePool = [
-        ExampleController::class => ExampleMiddleware::class
+        ExampleController::class => ExampleMiddleware::class,
+        LogController::class => LogMiddleware::class
     ];
 
     /**
